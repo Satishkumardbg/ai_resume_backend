@@ -15,7 +15,7 @@ export const db = mysql.createPool({
 db.getConnection((err, connection) => {
     if (err) {
         // console.error('Error connecting to the database:', err);
-        console.error('Error connecting to the database:');
+        console.error('Error connecting to the database:',err);
 
         return;
     }
