@@ -22,3 +22,9 @@ db.getConnection((err, connection) => {
     console.log('Database connected successfully!');
     connection.release(); // Release the connection back to the pool
 });
+
+export default db;
+
+
+
+
